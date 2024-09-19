@@ -1,0 +1,107 @@
+/* General Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f5f5;
+}
+
+/* Container Styles */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+/* Card Styles */
+.card {
+  border: none;
+  border-radius: 10px; /* Slightly increased border radius for a softer look */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Softer shadow for depth */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+/* Card Body Styles */
+.card-body {
+  padding: 40px;
+}
+
+/* Icon Styles */
+.fa-3x {
+  font-size: 3em;
+}
+
+/* Color Styles */
+.text-primary {
+  color: #007bff !important; /* Primary color for main actions */
+}
+
+.text-warning {
+  color: #ffc107 !important; /* Warning color for alerts or important actions */
+}
+
+.text-success {
+  color: #28a745 !important; /* Success color for positive actions */
+}
+
+/* Button Styles */
+.card a {
+  display: inline-block; /* Make the link behave like a button */
+  padding: 10px 20px; /* Add padding for a button-like feel */
+  border-radius: 5px; /* Rounded corners for buttons */
+}
+
+/* Button Background Colors */
+.card a.text-primary {
+    background-color: #007bff; /* Primary button color */
+    color: white; /* Text color for contrast */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.card a.text-warning {
+    background-color: #ffc107; /* Warning button color */
+    color: white;
+}
+
+.card a.text-success {
+    background-color: #28a745; /* Success button color */
+    color: white;
+}
+
+/* Button Hover Effects */
+.card a:hover {
+    transform: translateY(-2px); /* Slight lift on hover */
+}
+
+.card a.text-primary:hover {
+    background-color: #0056b3; /* Darker shade of primary on hover */
+}
+
+.card a.text-warning:hover {
+    background-color: #e0a800; /* Darker shade of warning on hover */
+}
+
+.card a.text-success:hover {
+    background-color: #218838; /* Darker shade of success on hover */
+}
+
+/* Typography Styles */
+h4 {
+    font-size: 1.5rem;
+    font-weight: bold; /* Increased font weight for emphasis */
+    margin-top: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 767px) {
+    .container {
+        padding: 20px;
+    }
+
+    .card-body {
+        padding: 20px;
+    }
+}

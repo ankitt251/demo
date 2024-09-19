@@ -1,0 +1,175 @@
+/* General body styling */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body, .navbar {
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Modern Navbar */
+.navbar-modern {
+    background-color: #212529; /* Darker background */
+    border-bottom: 2px solid #007bff;
+    padding: 0.75rem 1rem; /* Ensure consistent height */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px; /* Set consistent height for the navbar */
+}
+
+.navbar-modern .navbar-brand {
+    font-weight: 600;
+    color: #fff;
+    font-size: 1.5rem;
+    letter-spacing: 0.5px;
+    display: flex;
+    align-items: center; /* Align icon and text vertically */
+}
+
+.navbar-modern .navbar-brand i {
+    margin-right: 0.5rem;
+    font-size: 1.5rem; /* Icon size consistent with brand text */
+}
+
+.navbar-modern .navbar-nav {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-modern .navbar-nav .nav-link {
+    color: #d1d1d1;
+    margin-left: 1rem;
+    font-weight: 500;
+    font-size: 1rem; /* Consistent font size */
+    transition: color 0.3s ease-in-out;
+    display: flex;
+    align-items: center; /* Align icons and text vertically */
+}
+
+.navbar-modern .navbar-nav .nav-link i {
+    font-size: 1.25rem; /* Consistent icon size */
+    margin-right: 0.5rem; /* Space between icon and text */
+}
+
+.navbar-modern .navbar-nav .nav-link.active, 
+.navbar-modern .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+.navbar-modern .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.5);
+    font-size: 1.25rem; /* Ensure icon size for toggler is consistent */
+}
+
+/* Dropdown */
+.navbar-modern .dropdown-menu {
+    background-color: #212529;
+    border: none;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+    padding: 0.5rem;
+}
+
+.navbar-modern .dropdown-menu .dropdown-item {
+    color: #d1d1d1;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    font-size: 1rem; /* Consistent font size */
+}
+
+.navbar-modern .dropdown-menu .dropdown-item i {
+    font-size: 1.25rem; /* Consistent icon size in dropdown */
+    margin-right: 0.5rem;
+}
+
+.navbar-modern .dropdown-menu .dropdown-item:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Footer Styling */
+.footer-modern {
+    background-color: #212529;
+    color: #d1d1d1;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    border-top: 2px solid #007bff;
+}
+
+.footer-modern a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.footer-modern a:hover {
+    color: #0056b3;
+}
+
+/* Button styling */
+.btn-modern {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 30px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem; /* Ensure consistent font size for buttons */
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-modern:hover {
+    background-color: #0056b3;
+}
+
+/* Box Shadows for Cards */
+.card-modern {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.card-modern:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Specific styling for login page */
+.login-container {
+    margin-top: 4rem;
+}
+
+.card-body {
+    padding: 2rem; /* More padding for better spacing */
+}
+
+.card-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333; /* Dark color for the title */
+}
+
+.form-group label {
+    font-weight: 500; /* Slightly bolder labels */
+    color: #333; /* Consistent label color */
+}
+
+.form-check-input:checked {
+    background-color: #007bff; /* Primary theme color */
+    border-color: #007bff; /* Primary theme color */
+}
+
+.form-check-label {
+    color: #333; /* Consistent label color */
+}
+
+.text-center a {
+    color: #007bff; /* Link color */
+}
+
+.text-center a:hover {
+    color: #0056b3; /* Hover color */
+}
+

@@ -1,0 +1,51 @@
+:root {
+    --primary-color: #F7F7F7; /* Soft Cream */
+    --secondary-color: #003D5B; /* Deep Blue */
+    --accent-color: #FF6B35; /* Bright Orange */
+}
+
+/* General body styling */
+body {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar styling */
+.navbar-modern {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+/* Button styling */
+.btn-accent {
+    background-color: var(--accent-color);
+    color: var(--primary-color);
+    border-radius: 30px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-accent:hover {
+    background-color: #FF4F00; /* Darker shade on hover */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+/* Card styling */
+.card-modern {
+    border: none;
+    background-color: var(--primary-color);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.card-modern:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+/* Footer styling */
+.footer-modern {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
